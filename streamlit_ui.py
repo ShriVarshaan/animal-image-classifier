@@ -10,9 +10,9 @@ import gdown
 @st.cache_resource
 
 def load_model():
-    model_path = "models/animalclassification.keras"
+    model_path = "models/animalclassification.h5"
     if not os.path.exists(model_path):
-        url = "https://drive.google.com/file/d/1Px9BL3kuW0-AaFiFWAT9vcKlABXVTl-4/view?usp=drive_link"
+        url = "https://drive.google.com/file/d/1LihXDODvxvYakqDkMEAlUGjHdUXUC9y5/view?usp=sharing"
         gdown.download(url, model_path, quiet=False)
     model = tf.keras.models.load_model(model_path)
     return model
