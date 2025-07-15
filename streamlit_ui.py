@@ -39,10 +39,10 @@ if uploaded_file is not None:
     ans = predicted_class
 
     if ans == 0:
-        print("The image is of a butterfly")
+        st.write("The image is of a butterfly")
     elif ans == 1:
-        print("The image is of a Cat")
+        st.write("The image is of a Cat")
     elif ans == 2:
-        print("The image is of a dog")
+        st.write("The image is of a dog")
     elif ans == 3:
-        print("The image is of a horse")
+        st.write("The image is of a horse")
