@@ -1,3 +1,4 @@
+pip --upgrade
 tensorflow==2.15.0
 streamlit
 gdown
